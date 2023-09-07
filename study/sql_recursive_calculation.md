@@ -1,7 +1,7 @@
 ---
 title: SQLの再帰計算で平方根を求める
-date: 日付 (例: 2023-08-30)
-author: 著者名
+date: 2023-09-06
+author: MetaMoJi
 tags: [SQL, SQLite, RECURSIVE, SQRT, 再帰計算, 平方根]
 ---
 
@@ -129,9 +129,3 @@ HAVING max(step); -- ステップ数が最大のものを取り出す
 * https://www.sqlite.org/lang_with.html#recursivecte
 
 ---
-
-著者の連絡先情報やプロフィールなども、記事の下に追加することができます。
-
-**連絡先:** あなたのメールアドレス
-**Webサイト:** あなたのウェブサイト
-**Twitter:** @あなたのTwitterハンドル
