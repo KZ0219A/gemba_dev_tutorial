@@ -73,7 +73,7 @@ SELECT
 UNION SELECT -- sqrt テーブル自身を参照して新しいレコードを追加する
     v
     ,x1 AS x0   -- 前回の計算結果
-    ,(x1 + 2.0 / x1) / 2.0 AS x1 -- 漸化式から次の結果計算
+    ,(x1 + v / x1) / 2.0 AS x1 -- 漸化式から次の結果計算
 FROM sqrt2
 WHERE abs(x1 - x0) > 0.0
 )    
